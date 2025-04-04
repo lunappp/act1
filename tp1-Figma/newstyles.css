@@ -1,0 +1,114 @@
+body {
+    min-height: 100vh;
+    background-color: #585858;
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;
+
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-radius: .75em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    
+    position: relative;
+}
+.plus{
+    position: absolute;
+    top: 150px; right: -25px;
+    height: 50px;width: 50px;
+    background-color: indianred;
+    color: white;
+    font-size: 3em;
+    line-height: 1em;font-weight: lighter!important;
+     border-radius: 50%;
+     text-align: center;
+}
+
+.cabecera {
+    height: 300px;
+    width: 300px;
+    background:linear-gradient(to right, rgb(103, 17, 124), rgb(209, 13, 88) );
+    border-radius: 1em 1em 0 0 ;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 1em;
+}
+
+.fotoPerfil{
+    flex:1 1 auto ;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: white;
+} .data {
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 0 0 1em 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    article{
+        text-align: center;
+    }
+}
+
+.texto-blanco {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.contenedorTarjetas {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+.numeros{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    h2{
+        margin: 0 1em;
+    }
+}
+.follow{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.boton{
+    background-color: black;
+    height: 40px;
+    width: auto;
+    position: absolute;
+    bottom: 50px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.info{
+    position: absolute;
+    margin-top: 55%;
+    font-size: 10px;
+    color: #585858;
+    cursor: pointer;
+}
+
+/* 
+.cuadrado{
+    height: 114px;
+    width: 120px;
+    background-color: yellow;
+    position: absolute;
+    right: 123px;
+    bottom: 48px;
+} */

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Gravitas+One&family=Underdog&display=swap');
+
+body{
+    background-color: rgb(199, 247, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:10px;
+}
+header{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: "Codystar", sans-serif;
+}
+.tarjeta{ 
+    background-color: antiquewhite;
+    transition: all .15s ease-out;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 0 50px  rgb(30, 83, 90); 
+    color: rgb(0, 0, 0);
+    
+}
+.cabecera{
+    background-color:  rgb(199, 247, 255);
+    color: black;
+    padding: 1em;
+    border-radius: 1em;
+}
