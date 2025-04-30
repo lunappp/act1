@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    background-color: rgb(237, 237, 241);
+    display: grid;
+    width: 100vw;   /* 100% del ancho de la pantalla (viewport width) */
+  height: 100vh;  
+}
+.nombre{
+    text-align: center;
+    font-family: "Courgette", cursive;
+    color: black;
+    margin-top: 20px
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ingreso{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    input{
+        text-align: center;
+        height: 30px;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50; /* Verde */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    h3{
+        text-align: center;
+        font-size: small;
+    }
+}
+
+
