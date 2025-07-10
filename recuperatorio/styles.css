@@ -1,0 +1,74 @@
+header{
+    padding: 10px;
+    display: flex;
+    .res{
+        padding-left: 5em;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+body{
+    width: 100%;
+}
+.opt{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    gap: 1em;
+    .tip{
+        background-color:  #F2E8E8;
+        padding: 10px;
+        border-radius: 10%;
+    }
+}
+.busqueda{
+    color: rgb(119, 39, 39);
+    display: flex;
+    padding: 1em;
+    background-color: rgb(253, 228, 249);
+    border-radius: 20px;
+    margin-top: 20px;
+    .busq{
+        padding-left: 1em;
+    }
+}
+
+img{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+ border-radius: 50px;
+ border-radius: 25px;
+}
+
+.carta{
+    display: flex;
+    gap: 2em;
+    margin-top: 30px;
+    .img{
+        width: 30%;
+        height: 200px;
+        }
+    .text{
+        margin-top: 20px;
+    }
+} 
+footer{
+    display: flex;
+    gap: 20px;
+    background-color:  rgb(253, 228, 249);
+    margin-top:20px;
+    justify-content: space-between;
+    align-items: center;
+    .icons{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
